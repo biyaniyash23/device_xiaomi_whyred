@@ -67,5 +67,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     WhyredWifiOverlay
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
