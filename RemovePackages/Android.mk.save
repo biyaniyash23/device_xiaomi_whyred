@@ -53,8 +53,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	USCCDM \
 	VZWAPNLib \
 	VzwOmaTrigger \
-	WfcActivation \
-        AndroidAutoStubPrebuilt
+	WfcActivation
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
