@@ -71,9 +71,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
-# Pixel Launcher
-PRODUCT_PACKAGES += \
-    PixelLauncher
-
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
