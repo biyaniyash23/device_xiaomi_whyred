@@ -26,3 +26,9 @@ persist.vendor.s5k3l8_ofilm.low.lux=379
 persist.vendor.camera.enableAdvanceFeatures=0x347
 persist.camera.max.previewfps=60
 persist.vendor.camera.max.previewfps=60
+
+# Additional props
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
+ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
