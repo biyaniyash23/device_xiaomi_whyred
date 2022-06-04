@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor \
     android.hardware.gatekeeper@1.0-service
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
