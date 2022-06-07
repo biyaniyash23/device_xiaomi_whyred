@@ -27,9 +27,9 @@ TARGET_VENDOR_PRODUCT_NAME := whyred
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="whyred" \
     PRODUCT_NAME="whyred" \
-    PRIVATE_BUILD_DESC="redfin-user 12 SP2A.220305.012 8177914 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 12 SP2A.220505.002 8353555 release-keys" \
 
-BUILD_FINGERPRINT := "google/redfin/redfin:12/SP2A.220405.004/8233519:user/release-keys"
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SP2A.220505.002/8353555:user/release-keys"
 
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
