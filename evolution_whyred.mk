@@ -14,6 +14,9 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 # Inherit from whyred device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit from vendor stuff
+#$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -34,3 +37,4 @@ BUILD_FINGERPRINT := "google/redfin/redfin:12/SP2A.220505.002/8353555:user/relea
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_USES_MINI_GAPPS := true
