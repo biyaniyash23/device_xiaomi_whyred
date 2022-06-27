@@ -17,6 +17,7 @@ LOCAL_OVERRIDES_PACKAGES := \
 	CarrierWifi \
 	CbrsNetworkMonitor \
 	ConnMO \
+        ConnMetrics \
 	DCMO \
 	DevicePolicyPrebuilt \
 	DiagnosticsToolPrebuilt \
@@ -24,18 +25,25 @@ LOCAL_OVERRIDES_PACKAGES := \
 	Drive \
 	GCS \
 	GoogleCamera \
-	HelpRtcPrebuilt \
+	GoogleTTS \
+        HelpRtcPrebuilt \
 	MaestroPrebuilt \
 	Maps \
 	MicropaperPrebuilt \
+        Music \
 	MyVerizonServices \
 	NgaResources \
+        NfcNci \
 	OBDM_Permissions \
 	obdm_stub \
 	OdadPrebuilt \
 	OemDmTrigger \
+        Ornament \
+        PixelWallpapers2020 \
+        PixelLiveWallpaperPrebuilt \
 	Photos \
 	PrebuiltGmail \
+        PlayAutoInstallConfig \
 	RecorderPrebuilt \
 	SafetyHubPrebuilt \
 	SCONE \
@@ -43,18 +51,26 @@ LOCAL_OVERRIDES_PACKAGES := \
 	SecurityHubPrebuilt \
 	Showcase \
 	Snap \
+        Snap2 \
 	SoundAmplifierPrebuilt \
 	SprintDM \
 	SprintHM \
 	talkback \
 	TetheringEntitlement \
+        TurboAdapter \
 	TurboPrebuilt \
 	Tycho \
 	USCCDM \
 	VZWAPNLib \
 	VzwOmaTrigger \
+        WallpapersBReel2020 \
+        WellbeingPrebuilt \
 	WfcActivation \
-        AndroidAutoStubPrebuilt
+        AndroidAutoStubPrebuilt \
+        Velvet \
+        Videos \
+        YouTube \
+        YouTubeMusicPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
