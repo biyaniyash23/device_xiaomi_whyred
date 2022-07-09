@@ -29,11 +29,11 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 $(call inherit-product-if-exist, vendor/MiuiCamera/config.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
-DEVICE_MAINTAINER := Sreekanth
-PRODUCT_NAME := arrow_whyred
+
+DEVICE_MAINTAINER := YashBiyani
+PRODUCT_NAME := evolution_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
 PRODUCT_MANUFACTURER := Xiaomi
@@ -56,3 +56,6 @@ IS_PHONE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 440
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_USES_MINI_GAPPS := true
